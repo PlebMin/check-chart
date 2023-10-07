@@ -12,6 +12,6 @@ int check_ligne(int i, int x)
     } else if (i == 1) {
         return (1);
     } else {
-       return (2);
+        return (2);
     }
 }
