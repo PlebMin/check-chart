@@ -7,7 +7,7 @@
 
 void write_line1(int x)
 {
-    for (int i =1;i<= x;i++) {
+    for (int i = 1; i <= x; i++) {
         if (check_ligne(i,x) == 0) {
             my_putchar('C');
             my_putchar('\n');
@@ -41,19 +41,21 @@ void write_line2(int x)
 
 void write_line3(int x)
 {
-    for (int i =1;i<= x;i++) {
+    for (int i = 1; i <= x; i++) {
         if (check_ligne(i,x) == 0) {
             my_putchar('A');
         }
         if (check_ligne(i,x) == 1) {
             my_putchar('C');
-        } if (check_ligne(i,x) == 2) {
+        }
+        if (check_ligne(i,x) == 2) {
             my_putchar('B');
         }
     }
 }
 
-void check_col(int y, int x) {
+void check_col(int y, int x)
+{
     for (int j = 1; j < y; j++) {
         if (j == 1) {
             write_line1(x);
