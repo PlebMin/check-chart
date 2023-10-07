@@ -5,16 +5,13 @@
 ** check_ligne
 */
 
-int check_ligne(int i, int x){
-    if (i == x)
-    {
+int check_ligne(int i, int x)
+{
+    if (i == x) {
         return (0);
-    }
-    else if (i == 1)
-    {
+    } else if (i == 1) {
         return (1);
-    }
-    else{
+    } else {
        return (2);
     }
 }
