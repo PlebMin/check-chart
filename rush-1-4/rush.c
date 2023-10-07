@@ -54,7 +54,7 @@ void write_line3(int x)
     }
 }
 
-void check_col(int y, int x) 
+void check_col(int y, int x)
 {
     for (int j = 1; j < y; j++) {
         if (j == 1) {
@@ -72,13 +72,13 @@ void rush(int x, int y)
 {
     if (x == 1) {
         for (int j = 1; j <= y; j++) {
-           write_line2(1);
+            write_line2(1);
         }
         return;
     }
     if (y == 1) {
         for (int j = 1; j <= x; j++) {
-           my_putchar('B');
+            my_putchar('B');
         }
         return;
     }
@@ -88,4 +88,3 @@ void rush(int x, int y)
     }
     check_col(x, y);
 }
-

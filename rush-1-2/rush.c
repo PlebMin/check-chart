@@ -37,9 +37,9 @@ void write_line2(int x)
     }
 }
 
-void write_line3(int x) 
+void write_line3(int x)
 {
-    for (int i =1; i <= x; i++) {
+    for (int i = 1; i <= x; i++) {
         if (check_ligne(i, x) == 0) {
             my_putchar('/');
         }
